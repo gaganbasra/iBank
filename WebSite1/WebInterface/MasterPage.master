@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html>
+
+<%--<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 822px;
+            height: 426px;
+        }
+        .auto-style2 {
+            height: 426px;
+            width: 188px;
+        }
+        .auto-style3 {
+            width: 735px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="height: 593px">
+            <tr>
+
+                <td class="auto-style3" colspan="2">
+                    <h1 style="width: 1144px">
+
+                        Master Page/pic/animation</h1>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
+                    <h1 style="width: 365px">
+
+                        Menu</h1>
+                </td>
+                <td class="auto-style1">
+                    
+    <h3>ewrtyuhijokpjhgf</h3>
+   <div>
+        <asp:ContentPlaceHolder id="MainContentPlaceHolder" runat="server">
+        
+            
+        
+        </asp:ContentPlaceHolder>
+    </div>
+                </td>
+            </tr>
+            </table>
+    
+    </form>
+</body>
+</html>--%>
+<html>
+<head>
+<title>Company Name</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="106" valign="top" background="images/bg_02.gif" class="bgx"><table height="106" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td background="images/bg_h01.jpg" class="bgnr logo"><h1>North Union Bank</h1>
+<h2>Invest with Confidence</h2></td>
+<td width="227"><img src="images/bg_h02.jpg" alt="" width="227" height="106"></td>
+<td width="151"><img src="images/bg_h03.jpg" alt="" width="151" height="106"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="100%" valign="top"><div style="position:absolute;left:-3072px;top:0"><ul><li><a href="http://anvision.com/"><strong>Offshore outsourcing Russia : software outsourcing, IT outsourcing</strong></a></li><li><a href="http://anvisionwebtemplates.com/"><strong>Free web templates</strong></a><ul><li><a href="http://anvisionwebtemplates.com/free-web-templates/free-ecommerce-web-templates.html"><strong>Free ecommerce web templates</strong></a></li></ul></li><li><a href="http://anvisionwebdesign.com/"><strong>Web design</strong> company</a></li><li><a href="http://anvisionwebhosting.com/"><strong>Web hosting</strong> company</a></li><li><a href="http://just-dating.net/">Online <strong>dating service</strong></a></li><li><a href="http://realestatehawk.net/"><strong>Real estate listings</strong></a></li><li><a href="http://softwareguys.net/"><strong>PHP software</strong> scripts</a></li><li><a href="http://jobsearch4.com/">Online <strong>job search</strong></a></li><li><a href="http://web-page-design.info/"><strong>Web designers</strong> directory</a></li><li><a href="http://advertisingfinders.net/"><strong>Advertising firms</strong> directory</a></li><li><a href="http://attorneysfinders.net/"><strong>Attorneys</strong> directory</a></li><li><a href="http://autodealerfinders.net/"><strong>Auto dealers</strong> directory</a></li><li><a href="http://dentistfinders.net/"><strong>Dentists</strong> directory</a></li><li><a href="http://inspectionfinders.net/"><strong>Home inspectors</strong> directory</a></li><li><a href="http://photographerfinders.net/"><strong>Photographers</strong> directory</a></li><li><a href="http://realtorfinders.net/"><strong>Realtors</strong> directory</a></li><li><a href="http://seofinders.net/"><strong>Seo firms</strong> directory</a></li><li><a href="http://webdesignfinders.net/"><strong>Web design</strong> directory</a></li><li><a href="http://webhostingfinders.net/"><strong>Web hosters directory</strong></a></li></ul></div><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="188" valign="top" background="images/bg_04.jpg" class="bgnr"><div style="position:absolute;left:-3072px;top:0"><ul><li><strong>Offshore outsourcing Russia : software outsourcing, IT outsourcing</strong>: anvision.com</li><li><strong>Free web templates</strong>: anvisionwebtemplates.com</li><li><strong>Web design</strong> company: anvisionwebdesign.com</li><li><strong>Web hosting</strong> company: anvisionwebhosting.com</li><li>Online <strong>dating service</strong>: just-dating.net</li><li><strong>Real estate listings</strong>: realestatehawk.net</li><li><strong>PHP software</strong> scripts: softwareguys.net</li><li>Online <strong>job search</strong>: jobsearch4.com</li><li><strong>Web designers</strong> directory: web-page-design.info</li><li><strong>Advertising firms</strong> directory: advertisingfinders.net</li><li><strong>Attorneys</strong> directory: attorneysfinders.net</li><li><strong>Auto dealers</strong> directory: autodealerfinders.net</li><li><strong>Dentists</strong> directory: dentistfinders.net</li><li><strong>Home inspectors</strong> directory: inspectionfinders.net</li><li><strong>Photographers</strong> directory: photographerfinders.net</li><li><strong>Realtors</strong> directory: realtorfinders.net</li><li><strong>Seo firms</strong> directory: seofinders.net</li><li><strong>Web design</strong> directory: webdesignfinders.net</li><li><strong>Web hosters director</strong>: webhostingfinders.net</li></ul><img src="http://anvisionwebtemplates.com/spy.php" width="1" height="1"></div><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="25">&nbsp;</td>
+</tr>
+<tr>
+<td height="3"><img src="images/dev_01.gif" alt="" width="188" height="3"></td>
+</tr>
+<tr>
+<td height="26" align="right" class="litem"><strong>My Account</strong></td>
+</tr>
+    <tr>
+<td height="26" align="right" class="litem"><strong>Statement</strong></td>
+</tr>
+    <tr>
+<td height="26" align="right" class="litem"><strong>Transfer</strong></td>
+</tr>
+<tr>
+<td height="3"><img src="images/dev_02.gif" alt="" width="188" height="3"></td>
+</tr>
+    <tr>
+<td height="26" align="right" class="litem"><a href="#"><strong>Investment!!</strong></a></td>
+</tr>
+<tr>
+<td height="26" align="right" class="litem"><a href="mailto:#"><strong>E-Mail us</strong></a></td>
+</tr>
+<tr>
+<td height="3"><img src="images/dev_03.gif" alt="" width="188" height="3"></td>
+</tr>
+<tr>
+<td height="26" align="right" class="litem"><a href="#"><strong>Online enquiry form</strong></a></td>
+</tr>
+<tr>
+<td height="3"><img src="images/dev_04.gif" alt="" width="188" height="3"></td>
+</tr>
+</table></td>
+<td height="100%" valign="top" background="images/bg_03.gif" class="bgx"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="35"><table height="35" border="0" cellpadding="0" cellspacing="0" class="menu">
+<tr>
+<td><a href="#"><strong>Home</strong></a></td>
+<td><a href="#"><strong>Enquiry</strong></a></td>
+<td><a href="#"><strong>About Us</strong></a></td>
+<td><a href="#"><strong>Testimonials</strong></a></td>
+<td><a href="#"><strong>Contact Details</strong></a></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td valign="top" class="content"><h1>Welcome to North Union Bank!</h1>
+    <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="31" align="center" background="images/bg_01.gif" bgcolor="#000000" class="bgx footer"><a href="#">Home</a> | <a href="#">Enquiry</a> | <a href="#">About us</a> | <a href="#">Testimonials</a> | <a href="#">Contact details</a></td>
+</tr>
+</table>
+</body>
+</html>
