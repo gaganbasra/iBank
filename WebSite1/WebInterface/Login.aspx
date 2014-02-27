@@ -45,6 +45,8 @@
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" Font-Bold="True" Font-Size="Small" />
 
+                     <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="True" ForeColor="Blue" NavigateUrl="~/WebInterface/Forget Password.aspx">Forget Password</asp:HyperLink>
+
                  </td>
                 
             </tr>

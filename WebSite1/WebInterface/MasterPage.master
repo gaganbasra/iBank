@@ -1,60 +1,7 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 
 <!DOCTYPE html>
-
-<%--<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-    
-    <style type="text/css">
-        .auto-style1 {
-            width: 822px;
-            height: 426px;
-        }
-        .auto-style2 {
-            height: 426px;
-            width: 188px;
-        }
-        .auto-style3 {
-            width: 735px;
-        }
-    </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <table style="height: 593px">
-            <tr>
-
-                <td class="auto-style3" colspan="2">
-                    <h1 style="width: 1144px">
-
-                        Master Page/pic/animation</h1>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style2">
-                    <h1 style="width: 365px">
-
-                        Menu</h1>
-                </td>
-                <td class="auto-style1">
-                    
-    <h3>ewrtyuhijokpjhgf</h3>
-   <div>
-        <asp:ContentPlaceHolder id="MainContentPlaceHolder" runat="server">
-        
-            
-        
-        </asp:ContentPlaceHolder>
-    </div>
-                </td>
-            </tr>
-            </table>
-    
-    </form>
-</body>
-</html>--%>
 <html>
 <head>
 <title>Company Name</title>
@@ -84,13 +31,13 @@
 <td height="3"><img src="images/dev_01.gif" alt="" width="188" height="3"></td>
 </tr>
 <tr>
-<td height="26" align="right" class="litem"><strong>My Account</strong></td>
+<td height="26" align="right" class="litem"><a href="Login.aspx"><strong>My Account</strong></td>
 </tr>
     <tr>
-<td height="26" align="right" class="litem"><strong>Statement</strong></td>
+<td height="26" align="right" class="litem"><a href="#"><strong>Statement</strong></td>
 </tr>
     <tr>
-<td height="26" align="right" class="litem"><strong>Transfer</strong></td>
+<td height="26" align="right" class="litem"><a href="Transfer.aspx"><strong>Transfer</strong></td>
 </tr>
 <tr>
 <td height="3"><img src="images/dev_02.gif" alt="" width="188" height="3"></td>

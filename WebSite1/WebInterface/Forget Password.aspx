@@ -1,6 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/WebInterface/MasterPage.master" AutoEventWireup="true" CodeFile="Forget Password.aspx.cs" Inherits="WebInterface_Default2" %>
-<%@ Register Assembly="MSCaptcha" Namespace="MSCaptcha" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContentPlaceHolder" Runat="Server">
+    <style type="text/css">
+        .txtInput
+        {
+            width: 250px;
+            height: 28px;
+            padding: 3px;
+        }
+        div
+        {
+            margin: 5px;
+        }
+        .validator
+        {
+            color: Red;
+        }
+    </style>
     <form id="form1" runat="server">
     <table>
         <tr>
@@ -29,21 +44,24 @@
         </tr>
          <tr>
              <td colspan="2" align="center">
-              <div align="center" style="border-style: ridge; border-width: thin; width: 250px">
-                        <cc1:CaptchaControl ID="ccJoin" runat="server" CaptchaBackgroundNoise="none" 
-                                 CaptchaLength="5" CaptchaHeight="60" CaptchaWidth="200" CaptchaLineNoise="None" 
-                                 CaptchaMinTimeout="5" CaptchaMaxTimeout="240" 
-                                 CustomValidatorErrorMessage="Invalid Captcha" CaptchaChars="ACDEFGHJKLNPQRTUVXYZ23546789" />
-                  
-                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                <asp:Button ID="Button1" runat="server" Text="Try a new code"  ForeColor="#0099CC" onclick="Button1_Click" />
-             </div>
+              <div>
+        <fieldset>
+            <h3>
+                Enter the Text Below</h3>
+            <div>
+                <img src="GenerateCaptcha.ashx" /><br />
+                <asp:TextBox ID="txtCaptchaText" runat="server"></asp:TextBox><br />
+                <asp:Label ID="lblStatus" runat="server" Font-Bold="true"></asp:Label><br />
+                <asp:Button ID="btnReGenerate_Click" runat="server" Text="Regenerate Captcha"  ForeColor="#0099CC" onclick="Button1_Click" />
+            </div>
+        </fieldset>
+                  </div>
             </td>
         </tr>
         <tr>
             <td colspan="2">
 
-                <asp:Button ID="Button2" runat="server" Text="Button" OnClick="Button2_Click" />
+                <asp:Button ID="Submit" runat="server" Text="Button" OnClick="Button2_Click" />
 
             </td>
          
