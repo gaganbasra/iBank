@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/WebInterface/MasterPage.master" AutoEventWireup="true" CodeFile="Transfer.aspx.cs" Inherits="WebInterface_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContentPlaceHolder" Runat="Server">
+    <h1>Transfer</h1>
     <form id="form1" runat="server">
     <table>
         <tr>

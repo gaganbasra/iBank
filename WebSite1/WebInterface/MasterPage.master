@@ -7,6 +7,17 @@
 <title>Company Name</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .auto-style1 {
+            width: 151px;
+        }
+        .auto-style2 {
+            text-transform: uppercase;
+            font-size: 14px;
+            padding-right: 38px;
+            width: 151px;
+        }
+    </style>
 </head>
 <body>
 <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
@@ -25,37 +36,54 @@
 <tr>
 <td width="188" valign="top" background="images/bg_04.jpg" class="bgnr"><div style="position:absolute;left:-3072px;top:0"><ul><li><strong>Offshore outsourcing Russia : software outsourcing, IT outsourcing</strong>: anvision.com</li><li><strong>Free web templates</strong>: anvisionwebtemplates.com</li><li><strong>Web design</strong> company: anvisionwebdesign.com</li><li><strong>Web hosting</strong> company: anvisionwebhosting.com</li><li>Online <strong>dating service</strong>: just-dating.net</li><li><strong>Real estate listings</strong>: realestatehawk.net</li><li><strong>PHP software</strong> scripts: softwareguys.net</li><li>Online <strong>job search</strong>: jobsearch4.com</li><li><strong>Web designers</strong> directory: web-page-design.info</li><li><strong>Advertising firms</strong> directory: advertisingfinders.net</li><li><strong>Attorneys</strong> directory: attorneysfinders.net</li><li><strong>Auto dealers</strong> directory: autodealerfinders.net</li><li><strong>Dentists</strong> directory: dentistfinders.net</li><li><strong>Home inspectors</strong> directory: inspectionfinders.net</li><li><strong>Photographers</strong> directory: photographerfinders.net</li><li><strong>Realtors</strong> directory: realtorfinders.net</li><li><strong>Seo firms</strong> directory: seofinders.net</li><li><strong>Web design</strong> directory: webdesignfinders.net</li><li><strong>Web hosters director</strong>: webhostingfinders.net</li></ul><img src="http://anvisionwebtemplates.com/spy.php" width="1" height="1"></div><table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td height="25">&nbsp;</td>
+<td height="25" class="auto-style1">&nbsp;</td>
 </tr>
 <tr>
-<td height="3"><img src="images/dev_01.gif" alt="" width="188" height="3"></td>
+<td height="3" class="auto-style1"><img src="images/dev_01.gif" alt="" width="188" height="3"></td>
 </tr>
 <tr>
-<td height="26" align="right" class="litem"><a href="Login.aspx"><strong>My Account</strong></td>
+<td height="26" align="right" class="auto-style2"><a href="Login.aspx"><strong>My Account</strong></td>
 </tr>
     <tr>
-<td height="26" align="right" class="litem"><a href="#"><strong>Statement</strong></td>
+<td height="3" class="auto-style1"><img src="images/dev_02.gif" alt="" width="188" height="3"></td>
 </tr>
     <tr>
-<td height="26" align="right" class="litem"><a href="Transfer.aspx"><strong>Transfer</strong></td>
-</tr>
-<tr>
-<td height="3"><img src="images/dev_02.gif" alt="" width="188" height="3"></td>
+<td height="26" align="right" class="auto-style2"><a href="#"><strong>Statement</strong></td>
 </tr>
     <tr>
-<td height="26" align="right" class="litem"><a href="#"><strong>Investment!!</strong></a></td>
+<td height="3" class="auto-style1"><img src="images/dev_02.gif" alt="" width="188" height="3"></td>
+</tr>
+    <tr>
+<td height="26" align="right" class="auto-style2"><a href="Transfer.aspx"><strong>Transfer</strong></td>
+</tr>
+    <tr>
+<td height="3" class="auto-style1"><img src="images/dev_02.gif" alt="" width="188" height="3"></td>
+</tr>
+    <tr>
+<td height="26" align="right" class="auto-style2"><a href="Pay Payee.aspx"><strong>Pay Bills</strong><div style="font-size: xx-small">
+      <li><a href="Add Payee.aspx">Add Payee</a></li>
+      <li><a href="Pay Payee.aspx">Pay Payee</a></li>
+      <li><a href="Modify Payee.aspx">Modify Payee</a></li>		
+      <li><a href="Previous Payment view.aspx">Previous Payment</a></li>	</div>
+ </td>
 </tr>
 <tr>
-<td height="26" align="right" class="litem"><a href="mailto:#"><strong>E-Mail us</strong></a></td>
+<td height="3" class="auto-style1"><img src="images/dev_02.gif" alt="" width="188" height="3"></td>
+</tr>
+    <tr>
+<td height="26" align="right" class="auto-style2"><a href="#"><strong>Investment!!</strong></a></td>
 </tr>
 <tr>
-<td height="3"><img src="images/dev_03.gif" alt="" width="188" height="3"></td>
+<td height="26" align="right" class="auto-style2"><a href="mailto:#"><strong>E-Mail us</strong></a></td>
 </tr>
 <tr>
-<td height="26" align="right" class="litem"><a href="#"><strong>Online enquiry form</strong></a></td>
+<td height="3" class="auto-style1"><img src="images/dev_03.gif" alt="" width="188" height="3"></td>
 </tr>
 <tr>
-<td height="3"><img src="images/dev_04.gif" alt="" width="188" height="3"></td>
+<td height="26" align="right" class="auto-style2"><a href="#"><strong>Online enquiry form</strong></a></td>
+</tr>
+<tr>
+<td height="3" class="auto-style1"><img src="images/dev_04.gif" alt="" width="188" height="3"></td>
 </tr>
 </table></td>
 <td height="100%" valign="top" background="images/bg_03.gif" class="bgx"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
@@ -71,7 +99,7 @@
 </table></td>
 </tr>
 <tr>
-<td valign="top" class="content"><h1>Welcome to North Union Bank!</h1>
+<td valign="top" class="content" style="background-color: #000000"><h1>Welcome to North Union Bank!</h1>
     <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
 </td>
 </tr>

@@ -23,7 +23,7 @@ h1 {font-size: 14px;font-weight: bold;margin: 3px 0px 10px 0px}
 .menu td { background: url(../images/bull.gif) 18px 13px no-repeat}
 .menu a {color:#FFF;padding-left:10px;margin-left:20px;margin-right:14px;text-transform:uppercase}
 .menu a:hover {color:#9BF06D; text-decoration:none}
-.litem { background:url(../images/bull_02.gif) no-repeat right middle;text-transform:uppercase; font-size:10px; padding-right:38px}
+.litem { background:url(../images/bull_02.gif) no-repeat right middle;text-transform:uppercase; font-size:14px; padding-right:38px}
 .litem a {color:#FFF}
 
 .logo {width:188px;padding-left:124px;padding-bottom:22px}
