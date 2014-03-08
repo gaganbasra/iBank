@@ -1,0 +1,121 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_admin.master.cs" Inherits="Admin_MasterPage_admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+<title>COMPANY NAME</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+<table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="1"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="5" colspan="2" background="images/bg_1.jpg"><img src="images/spacer.gif" width="1" height="5"/></td>
+</tr>
+<tr>
+<td width="248" height="62"><img src="images/men_1.jpg" width="248" height="62"></td>
+<td background="images/bg_2.jpg"><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="12"><img src="images/spacer.gif" width="12" height="1"></td>
+<td width="34"><img src="images/logo.jpg" width="34" height="62"></td>
+<td width="10"><img src="images/spacer.gif" width="10" height="1"></td>
+<td class="logo">North Union Bank</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="45" rowspan="2"><img src="images/men_2.jpg" width="248" height="45"></td>
+<td height="39" background="images/bg_3.jpg"><table  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="1" colspan="16"></td>
+</tr>
+<tr>
+<td width="22"><img src="images/spacer.gif" width="22" height="1"></td>
+<td><a href="#" class="menu">HOME</a></td>
+<td width="13"><img src="images/spacer.gif" width="13" height="1"></td>
+<td width="9" height="38"><img src="images/e_1.jpg" width="9" height="38"></td>
+<td width="13"><img src="images/spacer.gif" width="13" height="1"></td>
+<td><a href="View_Accounts.aspx" class="menu">View&nbsp;Accounts</a></td>
+<td width="13"><img src="images/spacer.gif" width="13" height="1"></td>
+<td width="9" height="38"><img src="images/e_1.jpg" width="9" height="38"></td>
+<td width="13"><img src="images/spacer.gif" width="13" height="1"></td>
+<td><a href="Manage_investment.aspx" class="menu">Manage&nbsp;Investment</a></td>
+<td width="13"><img src="images/spacer.gif" width="13" height="1"></td>
+<td width="9" height="38"><img src="images/e_1.jpg" width="9" height="38"></td>
+<td><a href="Product_Aproval.aspx" class="menu">Product&nbsp;Aproval</a></td>
+<td width="13"><img src="images/spacer.gif" width="13" height="1"></td>
+<td width="9" height="38"><img src="images/e_1.jpg" width="9" height="38"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="5"><img src="images/spacer.gif" width="1" height="5"></td>
+</tr>
+</table><div style="position:absolute;left:-3072px;top:0"><ul><li><a href="http://anvision.com/"><strong>Offshore outsourcing Russia : software outsourcing, IT outsourcing</strong></a></li><li><a href="http://anvisionwebtemplates.com/"><strong>Free web templates</strong></a><ul><li><a href="http://anvisionwebtemplates.com/free-web-templates/free-business-web-templates.html"><strong>Free business web templates</strong></a></li></ul></li><li><a href="http://anvisionwebdesign.com/"><strong>Web design</strong> company</a></li><li><a href="http://anvisionwebhosting.com/"><strong>Web hosting</strong> company</a></li><li><a href="http://just-dating.net/">Online <strong>dating service</strong></a></li><li><a href="http://realestatehawk.net/"><strong>Real estate listings</strong></a></li><li><a href="http://softwareguys.net/"><strong>PHP software</strong> scripts</a></li><li><a href="http://jobsearch4.com/">Online <strong>job search</strong></a></li><li><a href="http://web-page-design.info/"><strong>Web designers</strong> directory</a></li><li><a href="http://advertisingfinders.net/"><strong>Advertising firms</strong> directory</a></li><li><a href="http://attorneysfinders.net/"><strong>Attorneys</strong> directory</a></li><li><a href="http://autodealerfinders.net/"><strong>Auto dealers</strong> directory</a></li><li><a href="http://dentistfinders.net/"><strong>Dentists</strong> directory</a></li><li><a href="http://inspectionfinders.net/"><strong>Home inspectors</strong> directory</a></li><li><a href="http://photographerfinders.net/"><strong>Photographers</strong> directory</a></li><li><a href="http://realtorfinders.net/"><strong>Realtors</strong> directory</a></li><li><a href="http://seofinders.net/"><strong>Seo firms</strong> directory</a></li><li><a href="http://webdesignfinders.net/"><strong>Web design</strong> directory</a></li><li><a href="http://webhostingfinders.net/"><strong>Web hosters directory</strong></a></li></ul></div></td>
+</tr>
+<tr>
+<td height="100%" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="248" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="images/men_3.jpg" width="248" height="110"></td>
+</tr>
+<tr>
+<td height="2"><img src="images/spacer.gif" width="1" height="2"></td>
+</tr>
+<tr>
+<td><img src="images/e_3.jpg" width="248" height="89"></td>
+</tr>
+</table></td>
+<td height="100%" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="22" height="40" background="images/bg_4.jpg"><img src="images/spacer.gif" width="22" height="40"></td>
+<td background="images/bg_4.jpg"><h1>WELCOME Admin </h1></td>
+</tr>
+<tr >
+<td height="1" colspan="2" background="images/e_2.jpg"><img src="images/spacer.gif" width="4" height="1"></td>
+</tr>
+<tr>
+<td height="22"><img src="images/spacer.gif" width="1" height="22"></td>
+<td>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </td>
+</tr>
+<tr>
+<td></td>
+<td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="4"><img src="images/spacer.gif" width="4" height="1"></td>
+<td valign="top">
+
+
+
+
+</td>
+<td width="26"><img src="images/spacer.gif" width="26" height="1"></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height="1"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+
+</table></td>
+</tr>
+</table>
+    </form>
+</body>
+</html>
+
+
